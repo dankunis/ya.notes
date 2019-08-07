@@ -15,6 +15,7 @@
 		03CE0B7A22FB8EC40098AFA4 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B7922FB8EC40098AFA4 /* CoreAssembly.swift */; };
 		03CE0B7E22FB8F5C0098AFA4 /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B7D22FB8F5C0098AFA4 /* ServicesAssembly.swift */; };
 		03CE0B8222FB8FF80098AFA4 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B8122FB8FF70098AFA4 /* PresentationAssembly.swift */; };
+		03CE0B8722FB959E0098AFA4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B8622FB959E0098AFA4 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		03CE0B7922FB8EC40098AFA4 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		03CE0B7D22FB8F5C0098AFA4 /* ServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
 		03CE0B8122FB8FF70098AFA4 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
+		03CE0B8622FB959E0098AFA4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				03CE0B7622FB8E160098AFA4 /* PresentationLayer */,
 				03CE0B7522FB8E060098AFA4 /* ServiceLayer */,
 				03CE0B7422FB8DEE0098AFA4 /* CoreLayer */,
+				03CE0B8422FB956A0098AFA4 /* Models */,
 				03CE0B7722FB8E690098AFA4 /* Resources */,
 			);
 			path = Ya.Notes;
@@ -177,6 +180,14 @@
 			path = DemoViewController;
 			sourceTree = "<group>";
 		};
+		03CE0B8422FB956A0098AFA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03CE0B8622FB959E0098AFA4 /* Note.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,6 +260,7 @@
 			files = (
 				03CE0B7E22FB8F5C0098AFA4 /* ServicesAssembly.swift in Sources */,
 				03CE0B6022FB6B130098AFA4 /* DemoViewController.swift in Sources */,
+				03CE0B8722FB959E0098AFA4 /* Note.swift in Sources */,
 				03CE0B7322FB8A670098AFA4 /* RootAssembly.swift in Sources */,
 				03CE0B8222FB8FF80098AFA4 /* PresentationAssembly.swift in Sources */,
 				03CE0B7A22FB8EC40098AFA4 /* CoreAssembly.swift in Sources */,
