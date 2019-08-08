@@ -10,25 +10,25 @@ import UIKit
 
 struct Note {
     
-    enum NoteImportance {
+    enum Importance: String {
         
-        case important
-        case ordinary
-        case unimportant
+        case high
+        case normal
+        case low
     }
     
     let uid: String
     let title: String
     let content: String
     let color: UIColor
-    let importance: NoteImportance
+    let importance: Importance
     let selfDestructionDate: Date?
     
     init(uid: String = UUID().uuidString,
          title: String,
          content: String,
          color: UIColor = .white,
-         importance: NoteImportance,
+         importance: Importance,
          selfDestructionDate: Date? = nil) {
         
         self.uid = uid
