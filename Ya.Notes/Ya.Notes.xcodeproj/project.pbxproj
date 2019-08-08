@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0339BAD522FCC416008EE8B1 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0339BAD422FCC416008EE8B1 /* UIColorExtensions.swift */; };
 		03CE0B5E22FB6B130098AFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B5D22FB6B130098AFA4 /* AppDelegate.swift */; };
 		03CE0B6022FB6B130098AFA4 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B5F22FB6B130098AFA4 /* DemoViewController.swift */; };
 		03CE0B6522FB6B140098AFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CE0B6422FB6B140098AFA4 /* Assets.xcassets */; };
@@ -16,9 +17,11 @@
 		03CE0B7E22FB8F5C0098AFA4 /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B7D22FB8F5C0098AFA4 /* ServicesAssembly.swift */; };
 		03CE0B8222FB8FF80098AFA4 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B8122FB8FF70098AFA4 /* PresentationAssembly.swift */; };
 		03CE0B8722FB959E0098AFA4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B8622FB959E0098AFA4 /* Note.swift */; };
+		03CE0B8D22FB9C890098AFA4 /* NoteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CE0B8C22FB9C890098AFA4 /* NoteExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0339BAD422FCC416008EE8B1 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		03CE0B5A22FB6B130098AFA4 /* Ya.Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ya.Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CE0B5D22FB6B130098AFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03CE0B5F22FB6B130098AFA4 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		03CE0B7D22FB8F5C0098AFA4 /* ServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
 		03CE0B8122FB8FF70098AFA4 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
 		03CE0B8622FB959E0098AFA4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		03CE0B8C22FB9C890098AFA4 /* NoteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				03CE0B7622FB8E160098AFA4 /* PresentationLayer */,
 				03CE0B7522FB8E060098AFA4 /* ServiceLayer */,
 				03CE0B7422FB8DEE0098AFA4 /* CoreLayer */,
+				03CE0B8B22FB9C300098AFA4 /* Extensions */,
 				03CE0B8422FB956A0098AFA4 /* Models */,
 				03CE0B7722FB8E690098AFA4 /* Resources */,
 			);
@@ -188,6 +193,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		03CE0B8B22FB9C300098AFA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03CE0B8C22FB9C890098AFA4 /* NoteExtension.swift */,
+				0339BAD422FCC416008EE8B1 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0339BAD522FCC416008EE8B1 /* UIColorExtensions.swift in Sources */,
 				03CE0B7E22FB8F5C0098AFA4 /* ServicesAssembly.swift in Sources */,
+				03CE0B8D22FB9C890098AFA4 /* NoteExtension.swift in Sources */,
 				03CE0B6022FB6B130098AFA4 /* DemoViewController.swift in Sources */,
 				03CE0B8722FB959E0098AFA4 /* Note.swift in Sources */,
 				03CE0B7322FB8A670098AFA4 /* RootAssembly.swift in Sources */,
